@@ -1,0 +1,6 @@
+{
+  "name": "Kick Off 2.0",
+  "description": "Football gear and jersey e-commerce store with checkout and mock admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

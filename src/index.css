@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,800;1,900&family=Teko:wght@500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Teko", ui-sans-serif, system-ui, sans-serif;
+  --color-brand-green: #37a340;
+  --color-brand-light: #90d885;
+}
+
+@layer base {
+  body {
+    @apply font-sans antialiased bg-white text-zinc-950;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading uppercase tracking-widest;
+  }
+}
+
