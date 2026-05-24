@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink, Outlet, Navigate } from 'react-router-dom';
-import { useShop } from '../../context/ShopContext';
+import { useShop } from '../../context/shop-context';
 import { LayoutDashboard, PackageSearch, ShoppingCart, LogOut } from 'lucide-react';
 
 export const AdminLayout = () => {

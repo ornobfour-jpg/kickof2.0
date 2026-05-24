@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
-import { useShop } from '../context/ShopContext';
+import { useShop } from '../context/shop-context';
 import { formatPrice, getImageUrl } from '../lib/utils';
 import { EDITION_PRICES, POPULAR_CATEGORIES } from '../data';
 

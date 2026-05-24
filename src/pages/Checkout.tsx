@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'motion/react';
-import { useShop } from '../context/ShopContext';
+import { useShop } from '../context/shop-context';
 import { Button } from '../components/ui/Button';
 import { formatPrice } from '../lib/utils';
 import { AccountModal } from '../components/AccountModal';

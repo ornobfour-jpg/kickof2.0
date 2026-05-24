@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useShop } from '../context/ShopContext';
+import { useShop } from '../context/shop-context';
 import { Button } from '../components/ui/Button';
 
 export const Login = () => {

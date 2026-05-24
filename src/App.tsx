@@ -1,7 +1,7 @@
 import React from 'react';
-import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'motion/react';
-import { ShopProvider } from './context/ShopContext';
+import { ShopProvider } from './context/shop-context';
 import { Navbar } from './components/layout/Navbar';
 import { AdminLayout } from './components/layout/AdminLayout';
 import { Home } from './pages/Home';
@@ -52,11 +52,11 @@ function AppContent() {
 
 export default function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <ShopProvider>
         <AppContent />
       </ShopProvider>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

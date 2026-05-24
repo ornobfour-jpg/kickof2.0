@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { motion } from 'motion/react';
-import { useShop } from '../context/ShopContext';
+import { useShop } from '../context/shop-context';
 import { Button } from '../components/ui/Button';
 import { formatPrice } from '../lib/utils';
 import { Package, Truck, CheckCircle, Clock } from 'lucide-react';

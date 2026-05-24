@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { X, Minus, Plus, ShoppingBag } from 'lucide-react';
-import { useShop } from '../../context/ShopContext';
+import { useShop } from '../../context/shop-context';
 import { Button } from '../ui/Button';
 import { formatPrice, getImageUrl } from '../../lib/utils';
 

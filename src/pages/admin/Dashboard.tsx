@@ -1,5 +1,5 @@
 import React from 'react';
-import { useShop } from '../../context/ShopContext';
+import { useShop } from '../../context/shop-context';
 import { formatPrice } from '../../lib/utils';
 import { Banknote, ShoppingCart, PackageSearch, Tag } from 'lucide-react';
 

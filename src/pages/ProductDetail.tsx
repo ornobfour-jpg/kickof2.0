@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
-import { useShop } from '../context/ShopContext';
+import { useShop } from '../context/shop-context';
 import { Button } from '../components/ui/Button';
 import { Size, Edition } from '../types';
 import { EDITION_PRICES } from '../data';

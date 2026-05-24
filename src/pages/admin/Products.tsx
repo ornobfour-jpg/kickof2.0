@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useShop } from '../../context/ShopContext';
+import { useShop } from '../../context/shop-context';
 import { Button } from '../../components/ui/Button';
 import { formatPrice, getImageUrl } from '../../lib/utils';
 import { EDITION_PRICES, POPULAR_CATEGORIES } from '../../data';

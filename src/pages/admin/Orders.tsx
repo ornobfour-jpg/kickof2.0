@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useShop } from '../../context/ShopContext';
+import { useShop } from '../../context/shop-context';
 import { formatPrice } from '../../lib/utils';
 import { Search, Trash2 } from 'lucide-react';
 
